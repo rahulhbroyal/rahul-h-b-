@@ -1,0 +1,414 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rahul h b portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mediaqueries.css">
+</head>
+<body>
+  <header>
+  <nav id="desktop-nav">
+    <div class="logo">Rahul h b</div>
+    <div>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+  <nav id="nav-bar">
+    <div class="logo">Rahul h b</div>
+    <div class="nav-menu">
+      <div class="nav-icon" onclick="toggleMenu()">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+      <div class="menu-links">
+        <li><a href="#about" onclick="toggleMenu()">About</a></li>
+        <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+        <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+      </div>
+    </div>
+  </nav>
+</header>
+    <section id="profile">
+        <div class="section__pic-container">
+          <img src="./assets/p3.jpg" alt="picture of rahul h b" />
+        </div>
+        <div class="section__text">
+          <p class="section__text__p1">Hello, I'm</p>
+          <h1 class="title">Rahul h b</h1>
+          <p class="section__text__p2">Ui/Ux Design & Frontend Developer</p>
+          <div class="btn-container">
+            <button
+              class="btn btn-color-2"
+              onclick="window.open('./assets/rahul resume.pdf')"
+            >
+              Download CV
+            </button>
+            <button class="btn btn-color-1" onclick="location.href='./#contact'">
+              Contact Info
+            </button>
+          </div>
+          <div id="socials-container">
+            <img
+              src="./assets/linkedin.png"
+              alt="My LinkedIn profile"
+              class="icon"
+              onclick="location.href='https://www.linkedin.com/in/rahulhb3006/'"
+            />
+            <img
+              src="./assets/github.png"
+              alt="My Github profile"
+              class="icon"
+              onclick="location.href='https://github.com/rahulhbroyal'"
+            />
+            <img
+            src="./assets/FontAwesome-Brands-Square-Behance-icon.png"
+            alt="My Github profile"
+            class="icon"
+            onclick="location.href='https://www.behance.net/rahulhb'"
+          />
+          </div>
+        </div>
+      </section>
+    </section>
+    <section id="about">
+        <p class="section__text__p1">Get To Know More</p>
+        <h1 class="title">About Me</h1>
+        <div class="section-container">
+          <div class="section__pic-container">
+            <img
+              src="./assets/about1.jpg"
+              alt="Profile picture"
+              class="about-pic"
+            />
+          </div>
+          <div class="about-details-container">
+            <div class="about-containers">
+              <div class="details-container">
+                <img
+                  src="./assets/amc.png"
+                  alt="Education icon"
+                  class="icon"
+                />
+                <h3>Bachelor Of Engineering</h3>
+                <p>Amc Engineering college<br />Computer Science And Engineering<br>CGPA Of 7.44</p>
+              </div>
+              <div class="details-container">
+                <img
+                  src="./assets/logo.jpg"
+                  alt="Education icon"
+                  class="icon"
+                />
+                <h3>PUC Education</h3>
+                <p>Royal Composite PU college<br>Aggregate of 74.14%</p>
+              </div>
+              <div class="details-container">
+                <img
+                  src="./assets/ssvn.png"
+                  alt="Education icon"
+                  class="icon"
+                />
+                <h3>SSLC Education</h3>
+                <p>Sri Sathya Sai Vidya Niketan <br>Aggregate of 74.14% </p>
+              </div>
+            </div>
+            <div class="text-container">
+              <p>  
+                "Enthusiastic and detail-oriented recent graduate with a Bachelor's degree in Computer Science, eager to kick-start a rewarding career as a Front-End Developer with a strong focus on UI/UX design. Possessing a solid foundation in HTML, CSS, and JavaScript, I am dedicated to creating not only visually appealing but also highly intuitive and user-friendly websites and web applications. My passion for staying up-to-date with the latest web development trends and technologies, combined with a keen eye for UI/UX design principles, makes me a valuable asset to any development team. I thrive on solving user experience challenges and am committed to continuous learning. I am excited to leverage my skills and creativity to deliver engaging web experiences that seamlessly blend aesthetics with functionality."        </div>
+    
+      </section>
+      <section id="projects">
+        <p class="section__text__p1">Browse My Recent</p>
+        <h1 class="title">Projects</h1>
+        <div class="experience-details-container">
+          <div class="about-containers">
+            <div class="details-container color-container">
+              <div class="article-container">
+                <img
+                  src="./assets/back.jpg"
+                  alt="Project 1"
+                  class="project-img"
+                />
+              </div>
+              <h2 class="experience-sub-title project-title">Wheater Report</h2>
+              <div class="btn-container">
+                <button
+                  class="btn btn-color-2 project-btn"
+                  onclick="location.href='https://github.com/rahulhbroyal/Wheater-Forecast'"
+                >
+                  Github
+              </button>
+              </div>
+            </div>
+            <div class="details-container color-container">
+              <div class="article-container">
+                <img
+                  src="./assets/red3.jpg"
+                  alt="Project 2"
+                  class="project-img"
+                />
+              </div>
+              <h2 class="experience-sub-title project-title">Redbus Clone </h2>
+              <div class="btn-container">
+                <button
+                  class="btn btn-color-2 project-btn"
+                  onclick="location.href='https://github.com/rahulhbroyal/Red-bus-clone-page'">
+                  Github
+                </button>
+              </div>
+            </div>
+
+            <div class="details-container color-container">
+              <div class="article-container">
+                <img
+                  src="./assets/Screenshot (156).png"
+                  alt="Project 3"
+                  class="project-img"
+                />
+              </div>
+              <h2 class="experience-sub-title project-title">Fitness App</h2>
+              <div class="btn-container">
+                <button
+                  class="btn btn-color-2 project-btn"
+                  onclick="location.href='https://www.behance.net/rahulhb'"
+                >
+                  Behance
+              </button>
+              </div>
+            </div>
+
+            <div class="details-container color-container">
+              <div class="article-container">
+                <img
+                  src="./assets/Screenshot (158).png"
+                  alt="Project 3"
+                  class="project-img"
+                />
+              </div>
+              <h2 class="experience-sub-title project-title">Burger page</h2>
+              <div class="btn-container">
+                <button
+                  class="btn btn-color-2 project-btn"
+                  onclick="location.href='https://www.behance.net/rahulhb'"
+                >
+                  Behance
+              </button>
+              </div>
+            </div>
+
+            <div class="details-container color-container">
+              <div class="article-container">
+                <img
+                  src="./assets/Screenshot (157).png"
+                  alt="Project 3"
+                  class="project-img"
+                />
+              </div>
+              <h2 class="experience-sub-title project-title">3d Animation</h2>
+              <div class="btn-container">
+                <button
+                  class="btn btn-color-2 project-btn"
+                  onclick="location.href='https://www.behance.net/rahulhb'"
+                >
+                  Behance
+              </button>
+              </div>
+            </div>
+
+            <div class="details-container color-container">
+              <div class="article-container">
+                <img
+                  src="./assets/Screenshot (155).png"
+                  alt="Project 3"
+                  class="project-img"
+                />
+              </div>
+              <h2 class="experience-sub-title project-title">Word-Coin</h2>
+              <div class="btn-container">
+                <button
+                  class="btn btn-color-2 project-btn"
+                  onclick="location.href='https://www.behance.net/rahulhb'"
+                >
+                  Behance
+              </button>
+              </div>
+            </div>
+            
+            <div class="details-container color-container">
+              <div class="article-container">
+                <img
+                  src="./assets/Screenshot (127).png"
+                  alt="Project 3"
+                  class="project-img"
+                />
+              </div>
+              <h2 class="experience-sub-title project-title">login Popup</h2>
+              <div class="btn-container">
+                <button
+                  class="btn btn-color-2 project-btn"
+                  onclick="location.href='https://github.com/rahulhbroyal/Popup-login-and-signup'"
+                >
+                  Github
+              </button>
+              </div>
+            </div>
+
+            <div class="details-container color-container">
+              <div class="article-container">
+                <img
+                  src="./assets/crud.png"
+                  alt="Project 2"
+                  class="project-img"
+                />
+              </div>
+              <h2 class="experience-sub-title project-title">CRUD Operation </h2>
+              <div class="btn-container">
+                <button
+                  class="btn btn-color-2 project-btn"
+                  onclick="location.href='https://github.com/rahulhbroyal/Crud_Angular_springboot_mysql'">
+                  Github
+                </button>
+              </div>
+            </div>
+            
+          </div>
+
+
+
+          <div class="about-containers">
+            <div class="details-container color-container">
+              <div class="article-container">
+                <img
+                  src="./assets/instgram1.png"
+                  alt="Project 1"
+                  class="project-img"
+                />
+              </div>
+              <h2 class="experience-sub-title project-title">Instagram</h2>
+              <div class="btn-container">
+                <button
+                  class="btn btn-color-2 project-btn"
+                  onclick="location.href='https://github.com/rahulhbroyal/Instagram-Landing-page'"
+                >
+                  Github
+              </button>
+              </div>
+            </div>
+            <div class="details-container color-container">
+              <div class="article-container">
+                <img
+                  src="./assets/css.png"
+                  alt="Project 2"
+                  class="project-img"
+                />
+              </div>
+              <h2 class="experience-sub-title project-title">CSS Animation </h2>
+              <div class="btn-container">
+                <button
+                  class="btn btn-color-2 project-btn"
+                  onclick="location.href='https://github.com/rahulhbroyal/Login-and-Registration-using-css-animation'">
+                  Github
+                </button>
+              </div>
+            </div>
+            
+            <div class="details-container color-container">
+              <div class="article-container">
+                <img
+                  src="./assets/coff.jpg"
+                  alt="Project 3"
+                  class="project-img"
+                />
+              </div>
+              <h2 class="experience-sub-title project-title">Coffee-shop App</h2>
+              <div class="btn-container">
+                <button
+                  class="btn btn-color-2 project-btn"
+                  onclick="location.href='https://www.behance.net/rahulhb'"
+                >
+                  Behance
+              </button>
+              </div>
+            </div>
+
+            <div class="details-container color-container">
+              <div class="article-container">
+                <img
+                  src="./assets/reg.png"
+                  alt="Project 2"
+                  class="project-img"
+                />
+              </div>
+              <h2 class="experience-sub-title project-title">Register-Form </h2>
+              <div class="btn-container">
+                <button
+                  class="btn btn-color-2 project-btn"
+                  onclick="location.href='https://github.com/rahulhbroyal/Register-Form'">
+                  Github
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section><br><br><br><br><br><br>
+
+      <section id="contact">
+        <p class="section__text__p1">Get in Touch</p>
+        <h1 class="title">Contact Me</h1>
+        <div class="contact-info-upper-container">
+          <div class="contact-info-container">
+            <img
+              src="./assets/email.png"
+              alt="Email icon"
+              class="icon contact-icon email-icon"
+            />
+            <p><a href="mailto:examplemail@gmail.com">rahulhbroyal@gmail.com</a></p>
+          </div>
+          <div class="contact-info-container">
+            <img
+              src="./assets/phone.jpeg"
+              alt="Phone number icon"
+              class="icon contact-icon Phone-icon"
+            />
+            <p><a href="mailto:examplemail@gmail.com">+91 9741021022</a></p>
+          </div>
+          <div class="contact-info-container">
+            <img
+              src="./assets/linkedin.png"
+              alt="LinkedIn icon"
+              class="icon contact-icon"
+            />
+            <p><a href="https://www.linkedin.com/in/rahulhb3006/">LinkedIn</a></p>
+          </div>
+          <div class="contact-info-container">
+            <img
+              src="./assets/FontAwesome-Brands-Square-Behance-icon.png"
+              alt="behance"
+              class="icon contact-icon"
+            />
+            <p><a href="https://www.behance.net/rahulhb">Behance</a></p>
+          </div>
+        </div>
+      </section>
+      <footer>
+        <nav>
+          <div class="nav-links-container">
+            <ul class="nav-links">
+              <li><a href="#about">About</a></li>
+              <li><a href="#projects">Projects</a></li>
+              <li><a href="#contact">Contact</a></li>
+            </ul>
+          </div>
+        </nav><br><br>
+        <br>
+        <p>Copyright &#169; 2024 Rahul H B. All Rights Reserved.</p>
+      </footer>
+    <script src="script.js"></script>
+</body>
+</html>
